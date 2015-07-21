@@ -1,4 +1,4 @@
-language: swift
+language: objective-c
 sudo: required
 script:
   - xctool test -scheme travisTests -sdk iphonesimulator
