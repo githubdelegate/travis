@@ -1,3 +1,4 @@
 language: swift
-xcode_project: travis.xcodeproj # path to your xcodeproj folder
-xcode_scheme: travis
+script:
+  - xctool -scheme travis 
+  - xctool test -scheme travisTests -sdk iphonesimulator
