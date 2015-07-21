@@ -1,4 +1,3 @@
 language: swift
 script:
-  - xctool -scheme travis 
   - xctool test -scheme travisTests -sdk iphonesimulator
