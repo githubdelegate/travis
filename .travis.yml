@@ -1,3 +1,4 @@
 language: swift
+sudo: false
 script:
   - xctool test -scheme travisTests -sdk iphonesimulator
