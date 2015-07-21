@@ -1,1 +1,3 @@
-language: objective c
+language: objective-c
+xcode_project: travis.xcodeproj # path to your xcodeproj folder
+xcode_scheme: travis
